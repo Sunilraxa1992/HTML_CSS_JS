@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    max-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#b3dced+0,29b8e5+50,bce0ee+100;Blue+Pipe */
+background: rgb(179,220,237); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(179,220,237,1) 0%, rgba(41,184,229,1) 50%, rgba(188,224,238,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(179,220,237,1) 0%,rgba(41,184,229,1) 50%,rgba(188,224,238,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(179,220,237,1) 0%,rgba(41,184,229,1) 50%,rgba(188,224,238,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b3dced', endColorstr='#bce0ee',GradientType=0 ); /* IE6-9 */
+
+color:white;
+
+
+
+}
+
+.container{
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 28px 32px;
+    display: flex;
+    flex-direction: column;
+    background: transparent;
+    box-shadow: 2px 2px 2px 2px;
+
+}
+
+.container h1{
+    font-size: 1.4rem;
+    margin-block: 8px ;
+}
+
+
+.passBox{
+    background-color: #fff;
+    border: none;
+    outline: none;
+    padding: 10px;
+    width: 300px;
+    border-radius: 10px;
+    margin-block: 8px ;
+    
+
+}
+.inputbox{
+    position: relative;
+    
+}
+
+.inputbox span{
+    position: absolute;
+    top:16px;
+    right: 10px;
+    color: black;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.row{
+    display: flex;
+    margin-block: 10px;
+}
+
+.row p, label{
+    flex: 1;
+    font-size: 20px;
+}
+
+.btn{
+    background-color: blue;
+    border:none;
+    padding-block: 10px;
+    border-radius: 10px;
+    color: white;
+}
+
+.btn:hover{
+    background-color: rgb(37, 37, 72);
+}

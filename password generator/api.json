@@ -1,0 +1,62 @@
+
+
+{"student":[ { "name":"Sunil",
+                "class":"v",
+                "address":{
+                    "at":"dahya",
+                    "pin":762015
+                },
+                "course":[" C","c++","java"]
+
+
+           },
+           {
+           "name":"Sunil",
+                "class":"v",
+                "address":{
+                    "at":"dahya",
+                    "pin":762015
+                },
+                "course":[" C","c++","java"]
+
+
+           },
+           {
+           "name":"Amil",
+                "class":"v",
+                "address":{
+                    "at":"dahya",
+                    "pin":762015
+                },
+                "course":[" C","c++","java"]
+
+
+           },
+           {
+            "name":"Mona",
+                 "class":"v",
+                 "address":{
+                     "at":"dahya",
+                     "pin":762015
+                 },
+                 "course":[" C","c++","java"]
+ 
+ 
+            },
+            {
+                "name":"Manisha",
+                     "class":"v",
+                     "address":{
+                         "at":"dahya",
+                         "pin":762015
+                     },
+                     "course":[" C","c++","java"]
+     
+     
+                }
+
+
+
+
+]
+}
