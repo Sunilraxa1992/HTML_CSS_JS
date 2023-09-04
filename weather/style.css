@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: rgb(33, 30, 30);
+}
+
+.card {
+  width: 90%;
+  max-width: 470px;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#6db3f2+0,54a3ee+18,54a3ee+18,6db3f2+44,6db3f2+44,3690f0+78,3690f0+78,1e69de+100 */
+  background: #6db3f2; /* Old browsers */
+  background: -moz-linear-gradient(
+    top,
+    #6db3f2 0%,
+    #54a3ee 18%,
+    #54a3ee 18%,
+    #6db3f2 44%,
+    #6db3f2 44%,
+    #3690f0 78%,
+    #3690f0 78%,
+    #1e69de 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    top,
+    #6db3f2 0%,
+    #54a3ee 18%,
+    #54a3ee 18%,
+    #6db3f2 44%,
+    #6db3f2 44%,
+    #3690f0 78%,
+    #3690f0 78%,
+    #1e69de 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    #6db3f2 0%,
+    #54a3ee 18%,
+    #54a3ee 18%,
+    #6db3f2 44%,
+    #6db3f2 44%,
+    #3690f0 78%,
+    #3690f0 78%,
+    #1e69de 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6db3f2', endColorstr='#1e69de',GradientType=0 ); /* IE6-9 */
+  color: #fff;
+  margin: 100px auto 0;
+  border-radius: 50px;
+  padding: 40px 30px;
+  text-align: center;
+}
+
+.search {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.search input {
+  border: none;
+  outline: 0;
+  background: #fefeff;
+  color: #555;
+  padding: 10px 25px;
+  height: 60px;
+  border-radius: 30px;
+  flex: 1;
+  margin-right: 10px;
+  font-size: 15px;
+}
+
+.search button {
+  border: none;
+  outline: 0;
+  background: #fefeff;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+}
+
+.search button img {
+  width: 16px;
+}
+
+.weather-icon {
+  width: 140px;
+  margin-top: 30px;
+}
+
+.weather h1 {
+  font-size: 60px;
+  font-weight: 500;
+}
+
+.weather h2 {
+  font-size: 40px;
+  font-weight: 400;
+  margin-top: 10px;
+}
+
+.details {
+  display: flex;
+  justify-content: center;
+  gap:30px;
+  align-items: center;
+  padding: 0 20px;
+  margin-top: 50px;
+}
+
+.details .col {
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
+
+.col img {
+  width: 30px;
+  margin-right: 10px;
+}
+
+.humidity, .wind{
+    font-size: 28px;
+    margin-top: -6px;
+
+}
+
+.weather{
+  display: none;
+}
+
+.error{
+  font-size: small;
+  color: red;
+  margin-top: 5px;
+  text-align: left;
+  display: none;
+}
